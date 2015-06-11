@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">DigActionBarDemo</string>
+	<string name="github_tip">DigActionBarDemo on github</string>
+	<string name="github">GitHub</string>
+	<string name="profile">Profile:&#160;</string>
+	<string name="description">Description:&#160;</string>
+	
+	<string name="desc_default">Trinea</string>
+	<string name="desc_httpcache_view">HttpCache Usage</string>
+	<string name="desc_httpimage_view">HttpImage Usage</string>
+	<string name="desc_pulltorefresh_view">PullToRefresh Usage</string>
+	<string name="desc_dropdownlv_view">DropDownListView Usage</string>
+	<string name="desc_swiperefreshlayout_view">SwipeRefreshLayout Usage</string>
+	
+	<string name="httpcache_demo_activity_title">HttpCache Demo</string>
+	<string name="httpimage_demo_activity_title">HttpImage Demo</string>
+	<string name="pulltorefresh_demo_activity_title">PullToRefresh Demo</string>
+	<string name="dropdownlistview_demo_activity_title">DropDownListView Demo</string>
+	<string name="swiperefreshlayout_demo_activity_title">SwipeRefreshLayout Demo</string>
+	
+	<string name="http_cache_get">Get Content</string>
+	<string name="okhttp_get">OKHttp</string>
+	<string name="async_http_get">AsyncHttp</string>
+	
+	<string name="http_image_get">Get Image</string>
+	<string name="uil_image_get">UIL</string>
+	<string name="picasso_image_get">Picasso</string>
+	
+	<string name="update_at">updated at:&#160;</string>
+</resources>
