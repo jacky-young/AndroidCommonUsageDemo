@@ -20,7 +20,7 @@ public class MainActivity extends BasicActivity {
 	
     private static final String[] mStrings = {"SwipeRefreshLayout Demo", "HttpCache Demo", "ImageCache Demo",
         "PullToRefresh Demo", "DropDownListView Demo", "onBottom onTop ScrollView Demo", "DownloadManager Demo",
-        "SearchView Demo", "ViewPager Multi Fragment Demo", "Slide One Page Gallery Demo", "ViewPager Demo",
+        "SearchView Demo", "InfiniteIndicator Demo", "Slide One Page Gallery Demo", "ViewPager Demo",
         "Service Demo", "BroadcastReceiver Demo"};
 
     private static final int      total    = mStrings.length - 1;	
@@ -54,6 +54,12 @@ public class MainActivity extends BasicActivity {
 					startActivity(PullToRefreshDemo.class);
 				} else if (position == total-8) {
 					startActivity(DropDownListViewDemo.class);
+				} else if (position == total-4) {
+					startActivity(InfiniteIndicatorDemo.class);
+				} else if (position == total-3) {
+					startActivity(SlideOnePageGalleryDemo.class);
+				} else if (position == total-2) {
+					startActivity(ViewPagerDemo.class);
 				}
 			}
 		});

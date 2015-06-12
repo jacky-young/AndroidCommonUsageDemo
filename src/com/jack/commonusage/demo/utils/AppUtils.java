@@ -4,10 +4,13 @@ package com.jack.commonusage.demo.utils;
 import com.jack.commonusage.demo.DropDownListViewDemo;
 import com.jack.commonusage.demo.HttpCacheDemo;
 import com.jack.commonusage.demo.HttpImageDemo;
+import com.jack.commonusage.demo.InfiniteIndicatorDemo;
 import com.jack.commonusage.demo.MainActivity;
 import com.jack.commonusage.demo.PullToRefreshDemo;
 import com.jack.commonusage.demo.R;
+import com.jack.commonusage.demo.SlideOnePageGalleryDemo;
 import com.jack.commonusage.demo.SwipeRefreshLayoutDemo;
+import com.jack.commonusage.demo.ViewPagerDemo;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -94,6 +97,15 @@ public class AppUtils {
 		} else if (cls == DropDownListViewDemo.class) {
 			url = "http://www.trinea.cn/android/dropdown-to-refresh-and-bottom-load-more-listview/";
 			contentSrcId = R.string.desc_dropdownlv_view;
+		} else if (cls == ViewPagerDemo.class) {
+			url = "http://www.cnblogs.com/trinea/archive/2012/11/23/2771273.html";
+			contentSrcId = R.string.desc_viewpager_view;
+		} else if (cls == SlideOnePageGalleryDemo.class) {
+			url = "http://www.trinea.cn/android/gallery-scroll-one-page/";
+			contentSrcId = R.string.desc_slidegallery_view;
+		} else if (cls == InfiniteIndicatorDemo.class) {
+			url = "https://github.com/lightSky/InfiniteIndicator";
+			contentSrcId = R.string.desc_infiniteindicator_view;
 		} else {
 	        url = "http://www.trinea.cn";
 	        contentSrcId = R.string.desc_default;

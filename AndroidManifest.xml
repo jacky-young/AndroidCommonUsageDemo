@@ -58,7 +58,25 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/dropdownlistview_demo_activity_title"
             android:theme="@style/AppTheme" >
-        </activity>        
+        </activity>
+        <activity
+            android:name=".ViewPagerDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/viewpager_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".SlideOnePageGalleryDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/slide_one_page_gallery_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".InfiniteIndicatorDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/infinite_indicator_title"
+            android:theme="@style/AppTheme" >
+        </activity>                                    
     </application>
 
 </manifest>

@@ -12,12 +12,18 @@
 	<string name="desc_pulltorefresh_view">PullToRefresh Usage</string>
 	<string name="desc_dropdownlv_view">DropDownListView Usage</string>
 	<string name="desc_swiperefreshlayout_view">SwipeRefreshLayout Usage</string>
+	<string name="desc_viewpager_view">ViewPager Usage</string>
+	<string name="desc_slidegallery_view">SlideGallery Usage</string>
+	<string name="desc_infiniteindicator_view">InfiniteIndicator Usage</string>
 	
 	<string name="httpcache_demo_activity_title">HttpCache Demo</string>
 	<string name="httpimage_demo_activity_title">HttpImage Demo</string>
 	<string name="pulltorefresh_demo_activity_title">PullToRefresh Demo</string>
 	<string name="dropdownlistview_demo_activity_title">DropDownListView Demo</string>
 	<string name="swiperefreshlayout_demo_activity_title">SwipeRefreshLayout Demo</string>
+	<string name="viewpager_demo_activity_title">ViewPager Demo</string>
+	<string name="slide_one_page_gallery_title">Slide One Page Gallery Demo</string>
+	<string name="infinite_indicator_title">InfiniteIndicator Demo</string>	
 	
 	<string name="http_cache_get">Get Content</string>
 	<string name="okhttp_get">OKHttp</string>
