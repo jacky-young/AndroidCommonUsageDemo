@@ -1,6 +1,8 @@
 package com.jack.commonusage.demo.utils;
 
 
+import com.jack.commonusage.demo.BroadcastReceiverDemo;
+import com.jack.commonusage.demo.DownloadManagerDemo;
 import com.jack.commonusage.demo.DropDownListViewDemo;
 import com.jack.commonusage.demo.HttpCacheDemo;
 import com.jack.commonusage.demo.HttpImageDemo;
@@ -8,6 +10,7 @@ import com.jack.commonusage.demo.InfiniteIndicatorDemo;
 import com.jack.commonusage.demo.MainActivity;
 import com.jack.commonusage.demo.PullToRefreshDemo;
 import com.jack.commonusage.demo.R;
+import com.jack.commonusage.demo.ServiceDemo;
 import com.jack.commonusage.demo.SlideOnePageGalleryDemo;
 import com.jack.commonusage.demo.SwipeRefreshLayoutDemo;
 import com.jack.commonusage.demo.ViewPagerDemo;
@@ -106,6 +109,15 @@ public class AppUtils {
 		} else if (cls == InfiniteIndicatorDemo.class) {
 			url = "https://github.com/lightSky/InfiniteIndicator";
 			contentSrcId = R.string.desc_infiniteindicator_view;
+		} else if (cls == DownloadManagerDemo.class) {
+			url = "http://www.trinea.cn/android/android-downloadmanager/";
+			contentSrcId = R.string.desc_downloadmanager_view;
+		} else if (cls == BroadcastReceiverDemo.class) {
+			url = "http://www.cnblogs.com/trinea/archive/2012/11/09/2763182.html";
+			contentSrcId = R.string.desc_broadcastreceiver_view;
+		} else if (cls == ServiceDemo.class) {
+			url = "http://www.cnblogs.com/trinea/archive/2012/11/08/2699856.html";
+			contentSrcId = R.string.desc_servicedemo_view;
 		} else {
 	        url = "http://www.trinea.cn";
 	        contentSrcId = R.string.desc_default;

@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">DigActionBarDemo</string>
 	<string name="github_tip">DigActionBarDemo on github</string>
@@ -15,6 +15,9 @@
 	<string name="desc_viewpager_view">ViewPager Usage</string>
 	<string name="desc_slidegallery_view">SlideGallery Usage</string>
 	<string name="desc_infiniteindicator_view">InfiniteIndicator Usage</string>
+	<string name="desc_downloadmanager_view">DownloadManager Usage</string>
+	<string name="desc_broadcastreceiver_view">BroadcastReceiver Usage</string>
+	<string name="desc_servicedemo_view">Service Usage</string>	
 	
 	<string name="httpcache_demo_activity_title">HttpCache Demo</string>
 	<string name="httpimage_demo_activity_title">HttpImage Demo</string>
@@ -23,7 +26,10 @@
 	<string name="swiperefreshlayout_demo_activity_title">SwipeRefreshLayout Demo</string>
 	<string name="viewpager_demo_activity_title">ViewPager Demo</string>
 	<string name="slide_one_page_gallery_title">Slide One Page Gallery Demo</string>
-	<string name="infinite_indicator_title">InfiniteIndicator Demo</string>	
+	<string name="infinite_indicator_title">InfiniteIndicator Demo</string>
+	<string name="download_manager_title">DownloadManager Demo</string>
+	<string name="broadcast_receiver_title">BroadcastReceiver Demo</string>
+	<string name="service_demo_title">Service Demo</string>	
 	
 	<string name="http_cache_get">Get Content</string>
 	<string name="okhttp_get">OKHttp</string>
@@ -34,4 +40,33 @@
 	<string name="picasso_image_get">Picasso</string>
 	
 	<string name="update_at">updated at:&#160;</string>
+	<string name="tip_download_file">Download file saved:&#160;</string>
+	<string name="download_notification_title">MeiLiShuo</string>
+	<string name="download_button_failed_title">Download failed, try again</string>
+	<string name="download_button_success_title">Download success, download again</string>
+	<string name="download_button_get_title">Download APK</string>
+	
+	<string name="send_general_broadcast_title">Send General Broadcast</string>
+	<string name="send_local_broadcast_title">Send Local Broadcast</string>
+	<string name="send_ordered_broadcast_title">Send Ordered Broadcast</string>
+	<string name="send_sticky_broadcast_title">Send Sticky Broadcast</string>
+	
+	<string name="msg_general_broadcast">General Broadcast: HaoShengYing is coming</string>
+	<string name="msg_local_broadcast">Local Broadcast: HaoShengYing is coming</string>
+	<string name="msg_ordered_broadcast">Ordered Broadcast: HaoShengYing is coming</string>
+	<string name="msg_sticky_broadcast">Sticky Broadcast: HaoShengYing is coming</string>
+	<string name="msg_sticky_broadcast_tip">Sticky Broadcast has been sent. wait time: <xliff:g>%1$d</xliff:g></string>	
+	<string name="ordered_broadcast_tip">Default priority receiver receive, content is:  <xliff:g>%1$s</xliff:g>, last receiver is <xliff:g>%2$s</xliff:g></string>
+	<string name="ordered_broadcast_high_tip">High Priority receiver receive, content is: <xliff:g>%1$s</xliff:g></string>
+	<string name="ordered_broadcast_medium_tip">Medium Priority receiver receive, content is: <xliff:g>%1$s</xliff:g>, last receiver is <xliff:g>%2$s</xliff:g></string>
+	<string name="ordered_broadcast_low_tip">Low Priority receiver receive, content is: <xliff:g>%1$s</xliff:g>, last receiver is <xliff:g>%2$s</xliff:g></string>
+	
+	<string name="start_general_service">Start General Service</string>
+	<string name="stop_general_service">Stop General Service</string>
+	<string name="start_intent_service">Start Intent Service</string>
+	<string name="bind_service">Bind Service</string>
+	<string name="operate_bind_service">Add Bind Service Count</string>
+	<string name="get_bind_service">Get Bind Service Count</string>
+	<string name="unbind_service">Unbind Service</string>					
+				
 </resources>

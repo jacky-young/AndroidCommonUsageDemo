@@ -10,12 +10,15 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
 
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <service android:name=".MyService"/>
+        <service android:name=".MyIntentService"/>
         
         <activity
             android:name=".MainActivity"
@@ -76,7 +79,30 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/infinite_indicator_title"
             android:theme="@style/AppTheme" >
-        </activity>                                    
+        </activity>
+        <activity
+            android:name=".DownloadManagerDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/download_manager_title"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/cn.trinea.download.file"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BroadcastReceiverDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/broadcast_receiver_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ServiceDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/service_demo_title"
+            android:theme="@style/AppTheme" >
+        </activity>                                                                
     </application>
 
 </manifest>

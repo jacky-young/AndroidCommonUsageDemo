@@ -54,12 +54,18 @@ public class MainActivity extends BasicActivity {
 					startActivity(PullToRefreshDemo.class);
 				} else if (position == total-8) {
 					startActivity(DropDownListViewDemo.class);
+				} else if (position == total-6) {
+					startActivity(DownloadManagerDemo.class);
 				} else if (position == total-4) {
 					startActivity(InfiniteIndicatorDemo.class);
 				} else if (position == total-3) {
 					startActivity(SlideOnePageGalleryDemo.class);
 				} else if (position == total-2) {
 					startActivity(ViewPagerDemo.class);
+				} else if (position == total-1) {
+					startActivity(ServiceDemo.class);
+				} else if (position == total) {
+					startActivity(BroadcastReceiverDemo.class);
 				}
 			}
 		});
