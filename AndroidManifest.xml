@@ -102,7 +102,13 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/service_demo_title"
             android:theme="@style/AppTheme" >
-        </activity>                                                                
+        </activity>
+        <activity
+            android:name=".SearchViewDemo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/searchview_demo_title"
+            android:theme="@style/AppTheme" >
+        </activity>                                                                             
     </application>
 
 </manifest>

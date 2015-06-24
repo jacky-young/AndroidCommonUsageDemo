@@ -18,6 +18,7 @@
 	<string name="desc_downloadmanager_view">DownloadManager Usage</string>
 	<string name="desc_broadcastreceiver_view">BroadcastReceiver Usage</string>
 	<string name="desc_servicedemo_view">Service Usage</string>	
+	<string name="desc_searchviewdemo_view">SearchView Usage</string>
 	
 	<string name="httpcache_demo_activity_title">HttpCache Demo</string>
 	<string name="httpimage_demo_activity_title">HttpImage Demo</string>
@@ -29,7 +30,8 @@
 	<string name="infinite_indicator_title">InfiniteIndicator Demo</string>
 	<string name="download_manager_title">DownloadManager Demo</string>
 	<string name="broadcast_receiver_title">BroadcastReceiver Demo</string>
-	<string name="service_demo_title">Service Demo</string>	
+	<string name="service_demo_title">Service Demo</string>
+	<string name="searchview_demo_title">SearchView Demo</string>			
 	
 	<string name="http_cache_get">Get Content</string>
 	<string name="okhttp_get">OKHttp</string>

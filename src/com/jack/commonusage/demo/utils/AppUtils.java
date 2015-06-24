@@ -10,6 +10,7 @@ import com.jack.commonusage.demo.InfiniteIndicatorDemo;
 import com.jack.commonusage.demo.MainActivity;
 import com.jack.commonusage.demo.PullToRefreshDemo;
 import com.jack.commonusage.demo.R;
+import com.jack.commonusage.demo.SearchViewDemo;
 import com.jack.commonusage.demo.ServiceDemo;
 import com.jack.commonusage.demo.SlideOnePageGalleryDemo;
 import com.jack.commonusage.demo.SwipeRefreshLayoutDemo;
@@ -118,6 +119,9 @@ public class AppUtils {
 		} else if (cls == ServiceDemo.class) {
 			url = "http://www.cnblogs.com/trinea/archive/2012/11/08/2699856.html";
 			contentSrcId = R.string.desc_servicedemo_view;
+		} else if (cls == SearchViewDemo.class) {
+			url = "http://www.trinea.cn/android/android-searchview-and-search-tips-impl/";
+			contentSrcId = R.string.desc_searchviewdemo_view;
 		} else {
 	        url = "http://www.trinea.cn";
 	        contentSrcId = R.string.desc_default;

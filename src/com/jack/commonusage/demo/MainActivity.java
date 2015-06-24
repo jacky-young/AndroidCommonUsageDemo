@@ -56,6 +56,8 @@ public class MainActivity extends BasicActivity {
 					startActivity(DropDownListViewDemo.class);
 				} else if (position == total-6) {
 					startActivity(DownloadManagerDemo.class);
+				} else if (position == total-5) {
+					startActivity(SearchViewDemo.class);
 				} else if (position == total-4) {
 					startActivity(InfiniteIndicatorDemo.class);
 				} else if (position == total-3) {
